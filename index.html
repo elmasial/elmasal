@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="tr">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>IYStay AI</title>
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+
+<div class="app">
+
+  <!-- SIDEBAR -->
+  <aside class="sidebar">
+    <h2>IYStay</h2>
+    <button id="newChat">+ Yeni Sohbet</button>
+    <div id="chatList"></div>
+  </aside>
+
+  <!-- CHAT -->
+  <main class="chat">
+    <header class="chat-header">
+      <span id="chatTitle">Yeni Sohbet</span>
+    </header>
+
+    <section id="chat-box"></section>
+
+    <footer class="input-area">
+      <input id="user-input" placeholder="Bir şey yaz..." />
+      <button onclick="sendMessage()">Gönder</button>
+    </footer>
+  </main>
+
+</div>
+
+<script src="script.js"></script>
+</body>
+</html>
